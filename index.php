@@ -18,7 +18,7 @@
                     <table width="345" border="1">
                         <tr>
                             <th height="34">What</th>
-                            <td><input type="text" id="product_problem" class="form-control" name="product_problem" placeholder="Define Problem" required="" autofocus=""></td>
+                            <td><input type="text" id="product_problem" class="form-control" name="product_problem " placeholder="Define Problem" required="" autofocus=""></td>
                         </tr>
                         <tr>
                             <th height="33">Price</th>
@@ -60,8 +60,6 @@
             })
             .done(function(result) {
 
-
-                // alert(JSON.stringify(result));
 
                 if (result.status == 200) {
                     var product_problem = result.product_problem;
