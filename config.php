@@ -6,8 +6,8 @@ $itemPrice = 10;
 $currency = "USD";  
  
 // Authorize.Net API configuration  
-define('ANET_API_LOGIN_ID', '6YnC322x2Ze');  
-define('ANET_TRANSACTION_KEY', '5uC8M85rJ54Ln4yv');  
+define('ANET_API_LOGIN_ID', 'xxxxxx');  
+define('ANET_TRANSACTION_KEY', 'xxxxxxxxx');  
 $ANET_ENV = 'SANDBOX'; // or PRODUCTION 
   
 // Database configuration  
