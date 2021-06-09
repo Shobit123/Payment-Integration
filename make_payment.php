@@ -3,7 +3,6 @@ require_once 'dbConnect.php';
 $id = $_GET['id'];
 $itemName = $_GET['product_problem'];
 $itemPrice = $_GET['price'];
-// exit(0);
 
 ?>
 <!DOCTYPE html>
